@@ -40,10 +40,10 @@ const About = () => {
           </div>
 
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius libero, debitis earum ipsa recusandae labore praesentium, dolore rem fugiat ex natus accusantium beatae, repudiandae repellendus? Odio maiores non dolore adipisci.
+              Hello, my name is Xiao and let's code together! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius libero, debitis earum ipsa recusandae labore praesentium, dolore rem fugiat ex natus accusantium beatae, repudiandae repellendus? Odio maiores non dolore adipisci.
             </p>
 
-            <a href="contact" className='btn btn-primary'>Let's Talk</a>
+            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
