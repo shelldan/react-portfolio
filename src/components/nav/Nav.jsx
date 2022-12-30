@@ -12,10 +12,10 @@ const Nav = () => {
   return (
     <nav>
         <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiTwotoneHome/></a>
-        <a href="#about" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineUser/></a>
-        <a href="#experience" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiBookOpen/></a>
-        <a href="#portfolio" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineFundProjectionScreen/></a>
-        <a href="#contact" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineMessage/></a>
+        <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#' ? 'active' : ''}><AiOutlineUser/></a>
+        <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#' ? 'active' : ''}><BiBookOpen/></a>
+        <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#' ? 'active' : ''}><AiOutlineFundProjectionScreen/></a>
+        <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#' ? 'active' : ''}><AiOutlineMessage/></a>
     </nav>
   )
 }
