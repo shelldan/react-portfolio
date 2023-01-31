@@ -34,8 +34,11 @@ SO THAT I can assess whether they're a good candidate for an open position
 Please view the live application [here]()
 
 ## Screenshot
+![](assets/images/screenshot%201.png)
 
+![](assets/images/screenshot%202.png)
 
+![](assets/images/screenshot%203.png)
 
 ## Installation
 To clone the repo:

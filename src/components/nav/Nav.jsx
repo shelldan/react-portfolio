@@ -37,7 +37,7 @@ function Nav({ currentPage, handlePageChange }){
   const [ activeNav, setActiveNav ] = useState('#')
   return (
     <nav>
-        <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiTwotoneHome/></a>
+        <a href="home" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiTwotoneHome/></a>
         <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'active' : ''}><AiOutlineUser/></a>
         <a href="#experience" onClick={() => handlePageChange('Experience')} className={currentPage === 'Experience' ? 'active' : ''}><BiBookOpen/></a>
         <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'active' : ''}><AiOutlineFundProjectionScreen/></a>
