@@ -13,7 +13,7 @@
 1. [Description](#description)
 2. [User Story](#user-story)
 3. [Screenshot](#screenshot)
-4. [Heroku](#heroku)
+4. [Github Deploy](#github-deploy)
 5. [Installation](#installation)
 6. [License](#license)
 7. [Contributing](#contributing)
@@ -30,8 +30,10 @@ I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 ```
 
-## Heroku
-Please view the live application [here]()
+## Github Deploy
+Please view the live application [here](https://shelldan.github.io/react-portfolio/)
+
+To deploy React in Github, please install `gh-pages`, or watch the video [here](https://www.youtube.com/watch?v=FEkrQFs9SIk)
 
 ## Screenshot
 ![](assets/images/screenshot%201.png)
